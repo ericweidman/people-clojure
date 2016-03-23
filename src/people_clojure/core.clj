@@ -25,7 +25,7 @@
     people))
 (c/defroutes app
   (c/GET "/" request
-    "Clojure, motherucker. ()()()(())))))))))))))))))))))))))))))))))))"))
+    "Hello, world!"))
 
 (defn -main []
   (j/run-jetty app {:port 3000}))
